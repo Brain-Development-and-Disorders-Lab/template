@@ -1,25 +1,26 @@
-# Template (General)
+# Repository Template
 
-The template repository for code and data associated with publications from the Brain Development and Disorders Lab.
+The template repository for code and data created and used by the Brain Development and Disorders Lab.
 
-## Template features
+## Template Features
 
-- **Issue Templates**: A bug report issue template has been included.
-- **Citation File**: A citation file has been included. This should be updated with appropriate details to ensure any code in the repository can be cited easily and correctly.
+* **License**: All repositories will be shared under a *Attribution-NonCommercial-ShareAlike 4.0 International* license, included in this template.
+* **Issue Templates**: A bug report issue template has been included.
+* **Citation File**: A citation file has been included. This should be updated with appropriate details to ensure the repository is cited correctly.
 
-The default branch is named `main`.
+The default branch name is `main`.
 
-## Using the template
+## Template Usage
 
-To use the template, click the green _Use this template_ button. This will prompt you to configure your new repository.
+To use the template, click the green *Use this template* button. This will prompt you to configure your new repository.
 
 1. Set the owner to `Brain-Development-and-Disorders-Lab` from the drop-down menu. If you cannot set the organisation, make sure you are a member.
 
-2. Set the name of the repository. The naming standard is: `Author_etal_YYYY[_keywords]` where `keywords` is an optional set of keywords associated with the publication. Examples of repository names that use this standard:
-    - `Smith_etal_2021`: code and data associated with John Smith's publication in 2021.
-    - `Smith_etal_2021_cat_cognition`: code and data associate with John Smith's ground-breaking publication in 2021 that examines cognition in cats.
+2. Set the name of the repository. If creating a repository for a publication, the naming standard is: `Author_etal_YYYY[_keywords]` where `keywords` is an optional set of keywords associated with the publication. Examples of repository names that use this standard:
+    * `Smith_etal_2021`: code and data associated with John Smith's publication in 2021.
+    * `Smith_etal_2021_cognition`: code and data associated with John Smith's publication in 2021 that examines cognition.
 
-3. Provide a description of the repository. This should be about one sentence that concisely outlines what publication the code and data is associated with and what is contained in the repository.
+3. Provide a description of the repository. This should be about one sentence that concisely outlines what the code and data does and is associated with.
 
 4. Set the repository visibility initially to `Private`.
 
@@ -27,15 +28,15 @@ To use the template, click the green _Use this template_ button. This will promp
 
 ### Recommended configuration
 
-- **Branch protection**: Branch protection should be enabled for the `main` branch. Only the code owners should be able to push to the `main` branch. The following rules are recommended to be enforced:
-  - _Require a pull request before merging_
-  - _Require status checks to pass before merging_ (if status checks have been enabled)
-  - _Include administrators_
-- **GitHub Actions**: GitHub Actions should be disabled by default. They can be enabled if required.
-- **GitHub Wikis**: GitHub Wikis should be disabled by default. Data and code documentation are included and versioned in the repository.
-- **GitHub Projects**: Unless the repository is a work-in-progress, GitHub Projects should be disabled.
+* **Branch protection**: Branch protection should be enabled for the `main` branch. Only the code owners should be able to push to the `main` branch. The following rules are recommended to be enforced:
+  * *Require a pull request before merging_
+  * *Require status checks to pass before merging* (if status checks have been enabled)
+  * *Include administrators*
+* **GitHub Actions**: GitHub Actions should be disabled by default. They can be enabled if required.
+* **GitHub Wikis**: GitHub Wikis should be disabled by default. Data and code documentation are included and versioned in the repository.
+* **GitHub Projects**: Unless the repository is a work-in-progress, GitHub Projects should be disabled.
 
-## Preparing for release
+## Release Preparation
 
 Before releasing code and data using this template, a number of steps should be taken to ensure the repository is adequately prepared.
 
@@ -50,5 +51,5 @@ Before releasing code and data using this template, a number of steps should be 
 5. Update the `CITATION.cff` file with appropriate details.
 
 6. Set the repository to `Public` visibility once all code and data has been added to the repository and checked.
-    - An effective testing strategy is to clone the private repository into a fresh environment, and run through any steps you would normally take to run or verify the code and data.
-    - If you are using tools that install or depend on packages such as R or Python, ensure you have tested installing all dependencies from Step 3, ideally in a fresh environment with a new installation of the language.
+    * An effective testing strategy is to clone the private repository into a fresh environment, and run through any steps you would normally take to run or verify the code and data.
+    * If you are using tools that install or depend on packages such as R or Python, ensure you have tested installing all dependencies from Step 3, ideally in a fresh environment with a new installation of the language.
