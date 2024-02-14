@@ -53,3 +53,16 @@ Before releasing code and data using this template, a number of steps should be 
 6. Set the repository to `Public` visibility once all code and data has been added to the repository and checked.
     * An effective testing strategy is to clone the private repository into a fresh environment, and run through any steps you would normally take to run or verify the code and data.
     * If you are using tools that install or depend on packages such as R or Python, ensure you have tested installing all dependencies from Step 3, ideally in a fresh environment with a new installation of the language.
+
+## License
+
+<!-- CC BY-NC-SA 4.0 License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+</a>
+<br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+## Issues and Feedback
+
+Please contact **Henry Burgess** <[henry.burgess@wustl.edu](mailto:henry.burgess@wustl.edu)> for all code-related issues and feedback.
